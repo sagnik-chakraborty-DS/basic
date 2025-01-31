@@ -9,7 +9,7 @@ on:
 
 jobs:
   dockerbuild:
-    runs-on :ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
     - user: actions/checkout@v4
     - name: Build Docker Image
